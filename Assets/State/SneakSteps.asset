@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ee17f8abbe40476999df03b146de8c4, type: 3}
+  m_Name: SneakSteps
+  m_EditorClassIdentifier: 
+  storyText: 'Oops ! You are in danger. The guards of the room saw you while sneaking.
+    They are coming towards you to catch you!
+
+
+    What should I do ?
+
+
+    1. Run
+    back to the room
+
+
+    2. Fight the guards.'
+  nextStates:
+  - {fileID: 11400000, guid: 1512ceddb192842959580bd5bda4604e, type: 2}
+  - {fileID: 11400000, guid: 7b9add2e7b48f4d26babd2fa939efec1, type: 2}

@@ -18,5 +18,5 @@ MonoBehaviour:
     can Jump through the window or sneak to the steps and escape.\n\nWhat should
     I do ?\n1. Jump through the window.\n2. Sneak to the steps and escape.\n"
   nextStates:
-  - {fileID: 11400000, guid: 55274c41bcf3a4225852567d510b2256, type: 2}
-  - {fileID: 11400000, guid: 040141e5a75c04e2a80a106f215040e6, type: 2}
+  - {fileID: 11400000, guid: 7d734915bd0d84552838325cbc3cf093, type: 2}
+  - {fileID: 11400000, guid: 118cc6598e9154391acbc5e5bdb65970, type: 2}

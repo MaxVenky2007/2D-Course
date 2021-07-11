@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ee17f8abbe40476999df03b146de8c4, type: 3}
+  m_Name: HIdeRoom
+  m_EditorClassIdentifier: 
+  storyText: 'Luckily, they didn''t notice you. All the guards passed away by you.
+    Now, its time to escape. If you stay here for a long time, they will find you.
+
+
+    What
+    should I do ?
+
+
+    1. Go to the Emergency exit.
+
+
+    2. Go to the swimming
+    pool.
+
+
+'
+  nextStates:
+  - {fileID: 11400000, guid: 0cd860fde6a0c45ad8e5bf1a8d3573d7, type: 2}
+  - {fileID: 11400000, guid: 0cd860fde6a0c45ad8e5bf1a8d3573d7, type: 2}

@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ee17f8abbe40476999df03b146de8c4, type: 3}
+  m_Name: SneakGuards
+  m_EditorClassIdentifier: 
+  storyText: "The guards are talking nicely. There are some keys to unlock the doors,
+    but they are in the guards pocket. Also a hammer is there near the elevator of
+    the building.  \n\nWhat should I do ?\n\n1. Take the hammer, kill the guards
+    with the hammer and take the keys.\n\n2. Sneak to the guards pocket and take
+    the keys.\n\n"
+  nextStates:
+  - {fileID: 11400000, guid: c4eed5aa6c61b4cf5823ff5cd3401865, type: 2}
+  - {fileID: 11400000, guid: bd2f7450ecab2480ca3a3ce829ee2b36, type: 2}

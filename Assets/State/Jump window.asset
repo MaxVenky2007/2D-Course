@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ee17f8abbe40476999df03b146de8c4, type: 3}
+  m_Name: Jump window
+  m_EditorClassIdentifier: 
+  storyText: 'You successfully jumped through but you got some wounds. There are
+    2 guards at the other side of the building. As you got wounds, you can''t run
+    fast and escape.
+
+
+    What should I do ?
+
+
+    1. Go back to the room
+
+
+    2.
+    Sneak near to the guards.'
+  nextStates:
+  - {fileID: 11400000, guid: 1512ceddb192842959580bd5bda4604e, type: 2}
+  - {fileID: 11400000, guid: f6606e8978a1f4e93a27605022436252, type: 2}
