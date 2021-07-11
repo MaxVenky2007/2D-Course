@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ee17f8abbe40476999df03b146de8c4, type: 3}
+  m_Name: StartingState
+  m_EditorClassIdentifier: 
+  storyText: 'Hey, whake up ! I am the AI Assistant sent for rescue ! You''re in
+    the terrorists house and locked in a room right now.
+
+    We have no time ! The
+    terrorists will kill you after an hour. You should somehow escape from here right
+    now.
+
+
+    You can Jump through the window or sneak to the steps and escape.
+
+
+    What
+    should I do ?
+
+    1. Jump through the window.
+
+    2. Sneak to the steps and
+    escape.
+
+'
