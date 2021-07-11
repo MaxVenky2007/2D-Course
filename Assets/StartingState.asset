@@ -17,3 +17,6 @@ MonoBehaviour:
     will kill you after an hour. You should somehow escape from here right now. \nYou
     can Jump through the window or sneak to the steps and escape.\n\nWhat should
     I do ?\n1. Jump through the window.\n2. Sneak to the steps and escape.\n"
+  nextStates:
+  - {fileID: 11400000, guid: 55274c41bcf3a4225852567d510b2256, type: 2}
+  - {fileID: 11400000, guid: 040141e5a75c04e2a80a106f215040e6, type: 2}
